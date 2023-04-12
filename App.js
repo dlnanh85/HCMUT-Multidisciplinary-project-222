@@ -4,8 +4,8 @@ import { NavigationContainer } from "@react-navigation/native";
 import { useFonts } from "expo-font";
 import SignIn from "./screens/SignIn";
 import DoorControl from "./screens/DoorControl";
-import Home from "./screens/Home";
-import LightingSystem from "./screens/LightingSystem";
+import Home2 from "./screens/Home2";
+import LightingSystem2 from "./screens/LightingSystem2";
 import Camera from "./screens/Camera";
 import Camera1 from "./screens/Camera1";
 import LogInDoor from "./screens/LogInDoor";
@@ -47,13 +47,13 @@ const App = () => {
               options={{ headerShown: false }}
             />
             <Stack.Screen
-              name="Home"
-              component={Home}
+              name="Home2"
+              component={Home2}
               options={{ headerShown: false }}
             />
             <Stack.Screen
-              name="LightingSystem"
-              component={LightingSystem}
+              name="LightingSystem2"
+              component={LightingSystem2}
               options={{ headerShown: false }}
             />
             <Stack.Screen

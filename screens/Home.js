@@ -18,7 +18,7 @@ const Home = () => {
       </Text>
       <Pressable
         style={[styles.wrapper, styles.frameLayout1]}
-        onPress={() => navigation.navigate("Television")}
+        onPress={() => navigation.navigate("SignIn")}
       >
         <Image
           style={[styles.icon, styles.homeLayout]}
